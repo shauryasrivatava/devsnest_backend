@@ -32,4 +32,5 @@ const registerSuperAdmin = (req,res)=>{
     }
 }
 
+
 module.exports = {registerSuperAdmin,register};
