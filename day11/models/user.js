@@ -1,4 +1,4 @@
-const {DataTypes} = require('sequelize');
+const {DataTypes, Model} = require('sequelize');
 const sequelize = require('../database');
 
 const User = sequelize.define('user',{
@@ -15,3 +15,5 @@ const User = sequelize.define('user',{
         allowNull: false
     }
 });
+
+Model.expots = User
